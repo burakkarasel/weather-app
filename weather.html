@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/aes.js"></script>
+  <script src="js/Extentions.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <section class="top-banner">
+    <div class="container">
+      <center>
+          <h1 class="heading">
+            Weather App</h1>
+      </center>
+      <form>
+        <input type="text" placeholder="Search for a city" autofocus>
+        <button type="submit">SUBMIT</button>
+        <span class="msg"></span>
+      </form>
+    </div>
+  </section>
+  <section class="ajax-section">
+    <div class="container">
+      <ul class="cities">
+      </ul>
+    </div>
+  </section>
+  <script src="weather.js"></script>
+</body>
+
+</html>
+
+<!-- <li class="city">
+  <h2 class="city-name" data-name="Ankara, TR">
+      <span>Ankara</span>
+      <sup>TR</sup>
+  </h2>
+  <div class="city-temp">1<sup>°C</sup></div>
+  <figure>
+      <img class="city-icon" src="https://openweathermap.org/img/wn/03n@2x.png">
+      <figcaption>scattered clouds</figcaption>
+  </figure>
+</li> -->
